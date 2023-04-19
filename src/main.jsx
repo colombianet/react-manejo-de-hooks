@@ -12,9 +12,13 @@ import { UseMemoCounter } from './useMemo/UseMemoCounter';
 import { CallbackHook } from './useMemo/CallbackHook';
 import { Padre } from './tarea-memo/Padre';
 import { TodoApp } from './useReducer/TodoApp';
+import { MainApp } from './useContext/MainApp';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <TodoApp />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <MainApp />
+    </React.StrictMode>,
+  </BrowserRouter>
 )

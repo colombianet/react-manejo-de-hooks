@@ -6,4 +6,5 @@
 - useReducer
 - useRef
 - useState
+- useContext
 - Hook's personalizados
